@@ -1,4 +1,4 @@
-# Nerfies
+# CompetEvo
 
 This is the repository that contains source code for the [CompetEvo website](https://competevo.github.io).
 
