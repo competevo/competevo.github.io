@@ -194,6 +194,27 @@
 
 <section class="section">
   <div class="container is-max-desktop">
+    <h2 class="title is-3">Method</h2>
+      <div class="content has-text-justified">
+        <img src="./static/images/info_flow.png"
+                class="interpolation-image"
+                alt="Interpolation end reference image."/>
+        <p>
+          To incorporate morphology into consideration, 
+          we construct a network composed of morphology sub-networks and adversarial tactics sub-networks.
+          At every beginning of the episode, each player utilizes the morphology sub-network and a set of initial parameters to generate a 
+          new morphological parameter vector, forming the corresponding morphology, and subsequently engages in combat. 
+          Then, players fight and learn their skills under the current morphology. Three kinds of observations are used 
+          for training a tactics sub-policy: the current morphology, states of agent itself, and observations of opponent. 
+          Therefore, after sufficient training, morphology sub-policy tends to converge to a relatively fixed morph; 
+          tactics sub-policy can also converge to a stable strategy that adepts to the current fixed morphology.
+        </p>
+      </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
     <h2 class="title is-3">Co-evolution in Self-Practice</h2>
     <p>
       Using co-evolution to train both morphology and tactics during confrontations.
